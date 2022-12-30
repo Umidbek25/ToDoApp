@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #FFDEAD;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.todoapp.controller.AddItemForm">
+   <children>
+      <TextField fx:id="taskField" layoutX="175.0" layoutY="96.0" prefHeight="46.0" prefWidth="350.0" promptText="Task">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="descriptionField" layoutX="175.0" layoutY="177.0" prefHeight="46.0" prefWidth="350.0" promptText="Description">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <JFXButton fx:id="saveTaskButton" layoutX="290.0" layoutY="251.0" prefHeight="39.0" prefWidth="120.0" style="-fx-background-color: #424242;" text="Save Task" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #FFDEAD;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.todoapp.controller.MainLoginPageController">
+   <children>
+      <AnchorPane layoutY="77.0" prefHeight="322.0" prefWidth="700.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <TextField fx:id="loginUsername" layoutX="36.0" layoutY="62.0" prefHeight="30.0" prefWidth="215.0" promptText="Username" />
+            <PasswordField fx:id="loginPassword" layoutX="420.0" layoutY="62.0" prefHeight="30.0" prefWidth="215.0" promptText="Password" />
+            <JFXButton fx:id="loginButton" layoutX="36.0" layoutY="146.0" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #424242;" text="Login" textFill="WHITE" />
+            <JFXButton fx:id="loginSignupButton" layoutX="427.0" layoutY="146.0" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #FFDEAD;" text="Sign Up" textFill="#180101" />
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="303.0" layoutY="23.0" text="ToDo">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
